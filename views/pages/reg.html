@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/css/reg-auth.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <button class="buttonNoTap"><a href="/"><img src="/views/img/кнопка_на_главную.png" width="190" height="35" alt="На главную"></a></button>
+        </div>
+        <form action="/registration" method="post" class="form" enctype="multipart/form-data">
+            <label for="login" class="item label">Введите ваш логин:</label>
+            <input type="text" name="login" id="login" class="item" placeholder="Login">
+            <label for="name" class="item label">Введите ваше имя:</label>
+            <input type="text" name="name" id="name" class="item" placeholder="Name">
+            <label for="psw" class="item label">Введите ваш пароль:</label>
+            <input type="password" name="psw" id="psw" class="item" placeholder="Password">
+            <label for="email" class="item label">Введите ваш email:</label>
+            <input type="email" name="email" id="email" class="item" placeholder="Email">
+            <label for="avatar" class="item label">Выберите аватар:</label>
+            <input type="file" name="avatar" id="avatar" class="item">
+            <button type="submit" class="item button">Отправить</button>
+        </form>
+        <div></div>
+    </div>
+</body>
+</html>

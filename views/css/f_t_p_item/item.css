@@ -1,0 +1,12 @@
+@import url("/views/css/__components/no_tap_button.css");
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    border-color: #FF6600;
+    border-radius: 5px;
+}

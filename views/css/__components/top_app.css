@@ -1,0 +1,11 @@
+@import url("./no_tap_button.css");
+
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 100%;
+    height: 10%;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "ivan/areaweb",
+    "description": "None",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app"
+        }
+    },
+    "require": {
+      "ext-mysqli": "*"
+    }
+}

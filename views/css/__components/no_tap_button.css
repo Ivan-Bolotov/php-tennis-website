@@ -1,0 +1,7 @@
+.buttonNoTap {
+    border-radius: 10px;
+    border-color: #6600CC;
+    background-color: #FFFFFF;
+    color: red;
+    font-weight: bold;
+}

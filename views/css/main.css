@@ -1,0 +1,13 @@
+@import url("./__components/button.css");
+@import url("./__components/no_tap_button.css");
+
+
+.table {
+    border-color: #6600CC;
+    border-radius: 10px;
+}
+
+.nadal {
+    border-color: #FFFF88;
+    border-radius: 10px;
+}

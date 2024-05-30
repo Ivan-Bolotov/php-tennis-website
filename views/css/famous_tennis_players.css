@@ -1,0 +1,11 @@
+@import url("./__components/button.css");
+@import url("./__components/no_tap_button.css");
+
+
+.class1 {
+    height: 250px;
+}
+
+.class2 {
+    border-radius: 20px;
+}

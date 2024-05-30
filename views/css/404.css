@@ -1,0 +1,15 @@
+@import url("./__components/top_app.css");
+@import url("./__components/flex_container.css");
+
+
+* {
+    margin: 0;
+}
+
+.container {
+    justify-content: flex-start;
+}
+
+.label {
+    margin-top: 25px;
+}
